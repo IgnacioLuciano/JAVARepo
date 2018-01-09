@@ -19,5 +19,13 @@ public class Arrays1 {
 		 System.out.println(count);
 
 }
+	
+	int start = 1;
+	int end = 5;
+	for (int numbers = start; numbers <= end ; numbers+= 2){
+		if (numbers%2 !=0)
+	           System.out.println(numbers);
 }
 }
+}
+	
